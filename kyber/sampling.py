@@ -1,8 +1,8 @@
-# ml-kem/sampling.py
+# kyber/sampling.py
 
 import hashlib, math
 
-from ml_kem.conversion import BytesToBits
+from kyber.conversion import BytesToBits
 from . import n, q
 
 def SampleNTT(B: bytes) -> list[int]:
